@@ -22,9 +22,7 @@ Obrigado pelo seu interesse em fazer parte da HYERDEV! Abaixo, você encontrará
 
 ## Desafio Técnico
 
-### 1. Crie o componente "ChatListItem" do WhatsApp Web e documente ele com o StorybookJS
-
-- Documente o componente no Storybook para demonstrar suas funcionalidades e variações.
+### 1. Crie o componente "ChatListItem" do WhatsApp Web
 
 ### 2. Crie o componente "ChatList" e busque de uma API mockada os dados
 
