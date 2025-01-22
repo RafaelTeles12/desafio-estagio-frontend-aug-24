@@ -68,8 +68,6 @@ Obrigado pelo seu interesse em fazer parte da HYERDEV! Abaixo, você encontrará
 - **Proximidade com o WhatsApp Web**
 
 ## Materiais úteis
-
-- [StorybookJS](https://storybook.js.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
 - [TailwindCSS](https://tailwindcss.com/)
