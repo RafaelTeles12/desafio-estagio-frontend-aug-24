@@ -1,0 +1,23 @@
+{
+    "chats": [
+        {
+        "id": 1,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Rafael",
+        "lastMessage": "Olá, tudo bem?",
+        "time": "12:30",
+        "unreadCount": 1,
+        "isGroup": false
+        },
+        {
+        "id": 2,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Família",
+        "lastMessage": "Reunião no domingo? Reunião no domingo? Reunião no domingo? Reunião no domingo? Reunião no domingo? Reunião no domingo?",
+        "time": "11:45",
+        "unreadCount": 234,
+        "isGroup": true
+        }
+    ]
+}
+  
