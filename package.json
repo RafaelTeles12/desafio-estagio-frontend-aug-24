@@ -11,6 +11,8 @@
     "mock:server": "json-server --watch src/mock/db.json --port 5000"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
+    "@shadcn/ui": "^0.0.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.424.0",

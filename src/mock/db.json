@@ -6,17 +6,107 @@
         "name": "Rafael",
         "lastMessage": "Olá, tudo bem?",
         "time": "12:30",
-        "unreadCount": 1,
+        "unreadCount": null,
         "isGroup": false
         },
         {
         "id": 2,
         "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
         "name": "Família",
-        "lastMessage": "Reunião no domingo? Reunião no domingo? Reunião no domingo? Reunião no domingo? Reunião no domingo? Reunião no domingo?",
+        "lastMessage": "Reunião no domingo? Confirme sua presença!",
         "time": "11:45",
-        "unreadCount": 234,
+        "unreadCount": 10,
         "isGroup": true
+        },
+        {
+        "id": 3,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Fulano",
+        "lastMessage": "Oi! Você conseguiu resolver aquele problema?",
+        "time": "10:15",
+        "unreadCount": 5,
+        "isGroup": false
+        },
+        {
+        "id": 4,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Amigos",
+        "lastMessage": "Reunião no sábado às 15h, ok?",
+        "time": "09:45",
+        "unreadCount": null,
+        "isGroup": true
+        },
+        {
+        "id": 5,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Trabalho",
+        "lastMessage": "Você pode revisar o relatório antes de enviar?",
+        "time": "08:00",
+        "unreadCount": 15,
+        "isGroup": true
+        },
+        {
+        "id": 6,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Carla",
+        "lastMessage": "Vamos almoçar amanhã?",
+        "time": "Ontem",
+        "unreadCount": 3,
+        "isGroup": false
+        },
+        {
+        "id": 7,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Estudo",
+        "lastMessage": "Aqui está o link para os materiais do curso.",
+        "time": "Quarta-feira",
+        "unreadCount": null,
+        "isGroup": true
+        },
+        {
+        "id": 8,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Maria",
+        "lastMessage": "Boa sorte na entrevista!",
+        "time": "Terça-feira",
+        "unreadCount": null,
+        "isGroup": false
+        },
+        {
+        "id": 9,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Viagem",
+        "lastMessage": "Vamos decidir o roteiro hoje à noite.",
+        "time": "Segunda-feira",
+        "unreadCount": 120,
+        "isGroup": true
+        },
+        {
+        "id": 10,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Lucas",
+        "lastMessage": "Me avise quando chegar.",
+        "time": "15:20",
+        "unreadCount": 1,
+        "isGroup": false
+        },
+        {
+        "id": 11,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Projeto XYZ",
+        "lastMessage": "Atualizei os arquivos no drive, veja lá.",
+        "time": "12:00",
+        "unreadCount": 25,
+        "isGroup": true
+        },
+        {
+        "id": 12,
+        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "name": "Luana",
+        "lastMessage": "Parabéns pelo seu aniversário!",
+        "time": "Ontem",
+        "unreadCount": null,
+        "isGroup": false
         }
     ]
 }
