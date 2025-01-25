@@ -13,7 +13,7 @@ test.describe('Chat List', () => {
 
   test('Pesquisar chats pelo nome', async ({ page }) => {
     // Simula a digitação na barra de pesquisa
-    const searchInput = page.locator('input[placeholder="Pesquisar conversas"]');
+    const searchInput = page.locator('input[placeholder="Pesquisar"]');
     await searchInput.fill('Rafael');
 
     // Verifica se o chat com nome "Rafael" aparece
@@ -41,7 +41,7 @@ test.describe('Chat List', () => {
 
     // Verifica se apenas chats com mensagens não lidas estão sendo exibidos
     await expect(page.locator('text=Trabalho')).toBeVisible();
-    await expect(page.locator('text=Fulano')).toBeVisible();
+    await expect(page.locator('text=Pedro')).toBeVisible();
     await expect(page.locator('text=Maria')).not.toBeVisible();
     await expect(page.locator('text=Amigos')).not.toBeVisible();
   });

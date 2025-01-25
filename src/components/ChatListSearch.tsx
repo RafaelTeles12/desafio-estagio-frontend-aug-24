@@ -23,7 +23,7 @@ const ChatListSearch: React.FC = () => {
       {/* Campo de entrada para pesquisa estilo shadcn/ui*/}
       <Input
         type="text"
-        placeholder="Pesquisar chats..."
+        placeholder="Pesquisar"
         value={searchQuery}
         onChange={handleSearchChange} // Atualiza a URL ao digitar
         className="w-full p-2"
