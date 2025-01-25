@@ -44,3 +44,4 @@ const ChatListItem: React.FC<ChatListItemProps> = ({ avatar, name, lastMessage, 
 };
 
 export default ChatListItem;
+export type { ChatListItemProps };
