@@ -80,3 +80,8 @@ Obrigado pelo seu interesse em fazer parte da HYERDEV! Abaixo, você encontrará
 ---
 
 Boa sorte com o desafio! Estamos ansiosos para ver sua solução e discutir suas escolhas técnicas durante a entrevista. Se tiver alguma dúvida, não hesite em entrar em contato.
+
+---
+
+Rafael Teles
+Link da apresentação: https://drive.google.com/file/d/1JIeqi6hnA487JzDZ7gdd1SbimpfCbH3j/view?usp=drive_link
