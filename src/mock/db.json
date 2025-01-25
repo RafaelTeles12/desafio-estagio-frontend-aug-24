@@ -2,34 +2,34 @@
     "chats": [
         {
         "id": 1,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385289.png",
         "name": "Rafael",
         "lastMessage": "Olá, tudo bem?",
-        "time": "12:30",
+        "time": "18:30",
         "unreadCount": null,
         "isGroup": false
         },
         {
         "id": 2,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385295.png",
         "name": "Família",
         "lastMessage": "Reunião no domingo? Confirme sua presença!",
-        "time": "11:45",
+        "time": "15:45",
         "unreadCount": 10,
         "isGroup": true
         },
         {
         "id": 3,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
-        "name": "Fulano",
-        "lastMessage": "Oi! Você conseguiu resolver aquele problema?",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385289.png",
+        "name": "Pedro",
+        "lastMessage": "Oi! Você conseguiu resolver aquele problema? Se precisar de ajuda, pode me chamar.",
         "time": "10:15",
         "unreadCount": 5,
         "isGroup": false
         },
         {
         "id": 4,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385295.png",
         "name": "Amigos",
         "lastMessage": "Reunião no sábado às 15h, ok?",
         "time": "09:45",
@@ -38,7 +38,7 @@
         },
         {
         "id": 5,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385295.png",
         "name": "Trabalho",
         "lastMessage": "Você pode revisar o relatório antes de enviar?",
         "time": "08:00",
@@ -47,7 +47,7 @@
         },
         {
         "id": 6,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385289.png",
         "name": "Carla",
         "lastMessage": "Vamos almoçar amanhã?",
         "time": "Ontem",
@@ -56,55 +56,55 @@
         },
         {
         "id": 7,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385295.png",
         "name": "Estudo",
-        "lastMessage": "Aqui está o link para os materiais do curso.",
-        "time": "Quarta-feira",
+        "lastMessage": "Aqui está o link para os materiais do curso. Fiquem atentos no prazo de conclusão dos curso.",
+        "time": "Ontem",
         "unreadCount": null,
         "isGroup": true
         },
         {
         "id": 8,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385289.png",
         "name": "Maria",
-        "lastMessage": "Boa sorte na entrevista!",
-        "time": "Terça-feira",
+        "lastMessage": "Boa sorte na entrevista! Tenho certeza de que vai dar certo.",
+        "time": "Ontem",
         "unreadCount": null,
         "isGroup": false
         },
         {
         "id": 9,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385295.png",
         "name": "Viagem",
         "lastMessage": "Vamos decidir o roteiro hoje à noite.",
-        "time": "Segunda-feira",
+        "time": "20/01/2025",
         "unreadCount": 120,
         "isGroup": true
         },
         {
         "id": 10,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385289.png",
         "name": "Lucas",
         "lastMessage": "Me avise quando chegar.",
-        "time": "15:20",
+        "time": "15/01/2025",
         "unreadCount": 1,
         "isGroup": false
         },
         {
         "id": 11,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385295.png",
         "name": "Projeto XYZ",
-        "lastMessage": "Atualizei os arquivos no drive, veja lá.",
-        "time": "12:00",
+        "lastMessage": "Atualizei os arquivos no drive, veja lá. E me avise se precisar de correção.",
+        "time": "14/01/2025",
         "unreadCount": 25,
         "isGroup": true
         },
         {
         "id": 12,
-        "avatar": "https://static.vecteezy.com/system/resources/previews/006/487/917/non_2x/man-avatar-icon-free-vector.jpg",
+        "avatar": "https://cdn-icons-png.freepik.com/128/9385/9385289.png",
         "name": "Luana",
         "lastMessage": "Parabéns pelo seu aniversário!",
-        "time": "Ontem",
+        "time": "12/01/2025",
         "unreadCount": null,
         "isGroup": false
         }
