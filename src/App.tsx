@@ -1,30 +1,29 @@
-import { BrowserRouter } from 'react-router-dom'; // Importar BrowserRouter
+import { BrowserRouter } from 'react-router-dom';
 import hyerdevLogo from '/logo-dark.svg';
 import ChatList from './components/ChatList';
 import ChatListSearch from './components/ChatListSearch';
 import ChatListFilter from './components/ChatListFilter';
 
+// Função principal do aplicativo que renderiza a interface
 function App() {
   return (
-    <BrowserRouter> {/* Adicionar o BrowserRouter */}
+    <BrowserRouter>
       <div className="min-h-screen bg-gradient-to-t from-[#150d21] to-[#180f27] w-full flex flex-col md:flex-row">
-        {/* Painel esquerdo (Lista de chats e cabeçalho) */}
         <div className="flex-1 max-w-lg h-screen p-4 flex flex-col">
-          {/* Logo no topo */}
+          {/* Logotipo no topo*/}
           <div className="flex justify-center mb-6">
             <img src={hyerdevLogo} alt="Hyerdev Logo" className="w-[200px]" />
           </div>
-          {/* Barra de Pesquisa e Filtros */}
-          <div className="flex flex-col space-y-1 mb-4"> {/* Ajuste para espaço menor */}
+          <div className="flex flex-col space-y-1 mb-4">
             <ChatListSearch />
             <ChatListFilter />
           </div>
-          {/* Lista de Chats com rolagem */}
           <div className="flex-1 overflow-y-auto">
             <ChatList />
           </div>
         </div>
-        {/* Painel direito (Fundo) */}
+
+        {/* Painel direito, logotipo como fundo*/}
         <div className="hidden md:flex justify-center items-center p-4 w-1/2">
           <img src={hyerdevLogo} alt="Hyerdev Logo" className="w-[300px]" />
         </div>

@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 
+// Define a interface `FilterState` que especifica o formato do estado global da store
 interface FilterState {
   searchQuery: string;
   showGroupsOnly: boolean;
@@ -9,6 +10,7 @@ interface FilterState {
   toggleShowUnreadOnly: () => void;
 }
 
+// Cria a store global usando a função `create` do Zustand
 export const useChatFilterStore = create<FilterState>((set) => ({
   searchQuery: '',
   showGroupsOnly: false,
