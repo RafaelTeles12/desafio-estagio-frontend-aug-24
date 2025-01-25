@@ -11,7 +11,7 @@ export default meta;
 
 const Template: StoryFn<ChatListItemProps> = (args) => <ChatListItem {...args} />;
 
-// Variação 1: Chat sem mensagens não lidas
+// Variação 1: Chat individual sem mensagens não lidas
 export const Default = Template.bind({});
 Default.args = {
   avatar: 'https://cdn-icons-png.freepik.com/128/9385/9385289.png',

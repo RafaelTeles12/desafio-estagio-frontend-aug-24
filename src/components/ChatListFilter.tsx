@@ -1,39 +1,34 @@
-import React from 'react';
-import { useSearchParams } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import { Button } from "@/components/ui/button";
+import { useChatFilterStore } from '../store/chatFilterStore';
 
 const ChatListFilter: React.FC = () => {
-  // Lê os parâmetros da URL e fornece funções para atualizá-los
-  const [searchParams, setSearchParams] = useSearchParams();
+  const showGroupsOnly = useChatFilterStore((state) => state.showGroupsOnly);
+  const showUnreadOnly = useChatFilterStore((state) => state.showUnreadOnly);
+  const toggleShowGroupsOnly = useChatFilterStore((state) => state.toggleShowGroupsOnly);
+  const toggleShowUnreadOnly = useChatFilterStore((state) => state.toggleShowUnreadOnly);
 
-  // Extrai os valores dos filtros da URL
-  const showGroupsOnly = searchParams.get('groups') === 'true';
-  const showUnreadOnly = searchParams.get('unread') === 'true';
-
-  // Alterna o estado de um filtro específico na URL
-  const toggleFilter = (filter: string) => {
-    const currentValue = searchParams.get(filter) === 'true';
-    setSearchParams({
-      ...Object.fromEntries(searchParams),
-      [filter]: (!currentValue).toString(),
-    });
-  };
+  useEffect(() => {
+    // Atualiza a URL quando os filtros mudarem
+    const params = new URLSearchParams(window.location.search);
+    params.set('groups', showGroupsOnly.toString());
+    params.set('unread', showUnreadOnly.toString());
+    window.history.replaceState({}, '', `${window.location.pathname}?${params}`);
+  }, [showGroupsOnly, showUnreadOnly]);
 
   return (
     <div className="flex space-x-2 p-4">
-      {/* Botão shadcn/ui para alternar o filtro de grupos */}
       <Button
         variant={showGroupsOnly ? "default" : "outline"}
-        onClick={() => toggleFilter('groups')}
+        onClick={toggleShowGroupsOnly}
         className="px-4 py-2"
       >
         Grupos
       </Button>
 
-      {/* Botão shadcn/ui para alternar o filtro de mensagens não lidas */}
       <Button
         variant={showUnreadOnly ? "default" : "outline"}
-        onClick={() => toggleFilter('unread')}
+        onClick={toggleShowUnreadOnly}
         className="px-4 py-2"
       >
         Não Lidas

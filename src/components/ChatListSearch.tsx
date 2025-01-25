@@ -1,31 +1,34 @@
-import React from 'react';
-import { useSearchParams } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import { Input } from "@/components/ui/input";
+import { useChatFilterStore } from '../store/chatFilterStore';
 
 const ChatListSearch: React.FC = () => {
-  // Lê e manipula os parâmetros da URL
-  const [searchParams, setSearchParams] = useSearchParams();
+  const searchQuery = useChatFilterStore((state) => state.searchQuery);
+  const setSearchQuery = useChatFilterStore((state) => state.setSearchQuery);
 
-  // Obtém o valor atual do termo de pesquisa na URL
-  const searchQuery = searchParams.get('search') || '';
-
-  // Atualiza o parâmetro 'search' na URL ao digitar no campo de busca
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
-    setSearchParams({
-      ...Object.fromEntries(searchParams),
-      search: value,
-    });
+    setSearchQuery(value);
   };
+
+  useEffect(() => {
+    // Atualiza a URL quando o searchQuery mudar
+    const params = new URLSearchParams(window.location.search);
+    if (searchQuery) {
+      params.set('search', searchQuery);
+    } else {
+      params.delete('search');
+    }
+    window.history.replaceState({}, '', `${window.location.pathname}?${params}`);
+  }, [searchQuery]);
 
   return (
     <div className="p-4">
-      {/* Campo de entrada para pesquisa estilo shadcn/ui*/}
       <Input
         type="text"
         placeholder="Pesquisar"
         value={searchQuery}
-        onChange={handleSearchChange} // Atualiza a URL ao digitar
+        onChange={handleSearchChange}
         className="w-full p-2"
       />
     </div>
